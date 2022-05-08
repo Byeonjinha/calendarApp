@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA491B91281EC92D0063DD48 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA491B90281EC92D0063DD48 /* Tests_iOS.swift */; };
+		BA491B93281EC92D0063DD48 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA491B92281EC92D0063DD48 /* Tests_iOSLaunchTests.swift */; };
+		BA491B9D281EC92D0063DD48 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA491B9C281EC92D0063DD48 /* Tests_macOS.swift */; };
+		BA491B9F281EC92D0063DD48 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA491B9E281EC92D0063DD48 /* Tests_macOSLaunchTests.swift */; };
+		BA491BA0281EC92D0063DD48 /* badgerHouseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA491B78281EC92C0063DD48 /* badgerHouseApp.swift */; };
+		BA491BA1281EC92D0063DD48 /* badgerHouseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA491B78281EC92C0063DD48 /* badgerHouseApp.swift */; };
+		BA491BA4281EC92D0063DD48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA491B7A281EC92D0063DD48 /* Assets.xcassets */; };
+		BA491BA5281EC92D0063DD48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA491B7A281EC92D0063DD48 /* Assets.xcassets */; };
+		BA491BB8281EC9B10063DD48 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = BA491BB7281EC9B10063DD48 /* FSCalendar */; };
+		BA4F57FA281FC54700B9D5A4 /* SF레몬빙수-TTF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA4F57F9281FC54700B9D5A4 /* SF레몬빙수-TTF.ttf */; };
+		BA5124A1281FC25200CEAB79 /* BMHANNAPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA51249F281FC25200CEAB79 /* BMHANNAPro.ttf */; };
+		BA5124A2281FC25200CEAB79 /* SfLemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA5124A0281FC25200CEAB79 /* SfLemon.ttf */; };
+		BAD42A3928211E8200BFC2A0 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD42A3428211E8200BFC2A0 /* CustomDatePicker.swift */; };
+		BAD42A3A28211E8200BFC2A0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD42A3528211E8200BFC2A0 /* Home.swift */; };
+		BAD42A3B28211E8200BFC2A0 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD42A3628211E8200BFC2A0 /* DateValue.swift */; };
+		BAD42A3C28211E8200BFC2A0 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD42A3728211E8200BFC2A0 /* Task.swift */; };
+		BAD42A3E28211E9B00BFC2A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD42A3D28211E9B00BFC2A0 /* ContentView.swift */; };
+		BAD42A402822496F00BFC2A0 /* badgerImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BAD42A3F2822496F00BFC2A0 /* badgerImage.jpeg */; };
+		BAD42A422822498F00BFC2A0 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD42A412822498F00BFC2A0 /* MainPage.swift */; };
+		BAD42A4428224CED00BFC2A0 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD42A4328224CED00BFC2A0 /* ContentView2.swift */; };
+		BAD42A4628224D3B00BFC2A0 /* Home2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD42A4528224D3B00BFC2A0 /* Home2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA491B8D281EC92D0063DD48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA491B73281EC92C0063DD48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA491B7E281EC92D0063DD48;
+			remoteInfo = "badgerHouse (iOS)";
+		};
+		BA491B99281EC92D0063DD48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA491B73281EC92C0063DD48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA491B84281EC92D0063DD48;
+			remoteInfo = "badgerHouse (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA491B78281EC92C0063DD48 /* badgerHouseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = badgerHouseApp.swift; sourceTree = "<group>"; };
+		BA491B7A281EC92D0063DD48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA491B7F281EC92D0063DD48 /* badgerHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = badgerHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA491B85281EC92D0063DD48 /* badgerHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = badgerHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA491B87281EC92D0063DD48 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		BA491B8C281EC92D0063DD48 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA491B90281EC92D0063DD48 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		BA491B92281EC92D0063DD48 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		BA491B98281EC92D0063DD48 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA491B9C281EC92D0063DD48 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		BA491B9E281EC92D0063DD48 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		BA491BB9281F78F70063DD48 /* Tests-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Tests-iOS-Info.plist"; sourceTree = SOURCE_ROOT; };
+		BA4F57F9281FC54700B9D5A4 /* SF레몬빙수-TTF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF레몬빙수-TTF.ttf"; sourceTree = "<group>"; };
+		BA51249F281FC25200CEAB79 /* BMHANNAPro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BMHANNAPro.ttf; sourceTree = "<group>"; };
+		BA5124A0281FC25200CEAB79 /* SfLemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SfLemon.ttf; sourceTree = "<group>"; };
+		BA5124A3281FC2AE00CEAB79 /* badgerHouse--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "badgerHouse--iOS--Info.plist"; sourceTree = "<group>"; };
+		BAD42A3428211E8200BFC2A0 /* CustomDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		BAD42A3528211E8200BFC2A0 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		BAD42A3628211E8200BFC2A0 /* DateValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		BAD42A3728211E8200BFC2A0 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		BAD42A3D28211E9B00BFC2A0 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BAD42A3F2822496F00BFC2A0 /* badgerImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = badgerImage.jpeg; sourceTree = "<group>"; };
+		BAD42A412822498F00BFC2A0 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		BAD42A4328224CED00BFC2A0 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		BAD42A4528224D3B00BFC2A0 /* Home2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA491B7C281EC92D0063DD48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA491BB8281EC9B10063DD48 /* FSCalendar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA491B82281EC92D0063DD48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA491B89281EC92D0063DD48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA491B95281EC92D0063DD48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA491B72281EC92C0063DD48 = {
+			isa = PBXGroup;
+			children = (
+				BAD42A4528224D3B00BFC2A0 /* Home2.swift */,
+				BAD42A4328224CED00BFC2A0 /* ContentView2.swift */,
+				BAD42A412822498F00BFC2A0 /* MainPage.swift */,
+				BAD42A3428211E8200BFC2A0 /* CustomDatePicker.swift */,
+				BAD42A3628211E8200BFC2A0 /* DateValue.swift */,
+				BAD42A3528211E8200BFC2A0 /* Home.swift */,
+				BAD42A3728211E8200BFC2A0 /* Task.swift */,
+				BAD42A3D28211E9B00BFC2A0 /* ContentView.swift */,
+				BA5124A3281FC2AE00CEAB79 /* badgerHouse--iOS--Info.plist */,
+				BA51249F281FC25200CEAB79 /* BMHANNAPro.ttf */,
+				BA5124A0281FC25200CEAB79 /* SfLemon.ttf */,
+				BA4F57F9281FC54700B9D5A4 /* SF레몬빙수-TTF.ttf */,
+				BA491B77281EC92C0063DD48 /* Shared */,
+				BA491B86281EC92D0063DD48 /* macOS */,
+				BA491B8F281EC92D0063DD48 /* Tests iOS */,
+				BA491B9B281EC92D0063DD48 /* Tests macOS */,
+				BA491B80281EC92D0063DD48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA491B77281EC92C0063DD48 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BAD42A3F2822496F00BFC2A0 /* badgerImage.jpeg */,
+				BA491B78281EC92C0063DD48 /* badgerHouseApp.swift */,
+				BA491B7A281EC92D0063DD48 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		BA491B80281EC92D0063DD48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA491B7F281EC92D0063DD48 /* badgerHouse.app */,
+				BA491B85281EC92D0063DD48 /* badgerHouse.app */,
+				BA491B8C281EC92D0063DD48 /* Tests iOS.xctest */,
+				BA491B98281EC92D0063DD48 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA491B86281EC92D0063DD48 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				BA491B87281EC92D0063DD48 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		BA491B8F281EC92D0063DD48 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BA491BB9281F78F70063DD48 /* Tests-iOS-Info.plist */,
+				BA491B90281EC92D0063DD48 /* Tests_iOS.swift */,
+				BA491B92281EC92D0063DD48 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		BA491B9B281EC92D0063DD48 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				BA491B9C281EC92D0063DD48 /* Tests_macOS.swift */,
+				BA491B9E281EC92D0063DD48 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA491B7E281EC92D0063DD48 /* badgerHouse (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA491BA8281EC92D0063DD48 /* Build configuration list for PBXNativeTarget "badgerHouse (iOS)" */;
+			buildPhases = (
+				BA491B7B281EC92D0063DD48 /* Sources */,
+				BA491B7C281EC92D0063DD48 /* Frameworks */,
+				BA491B7D281EC92D0063DD48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "badgerHouse (iOS)";
+			packageProductDependencies = (
+				BA491BB7281EC9B10063DD48 /* FSCalendar */,
+			);
+			productName = "badgerHouse (iOS)";
+			productReference = BA491B7F281EC92D0063DD48 /* badgerHouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA491B84281EC92D0063DD48 /* badgerHouse (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA491BAB281EC92D0063DD48 /* Build configuration list for PBXNativeTarget "badgerHouse (macOS)" */;
+			buildPhases = (
+				BA491B81281EC92D0063DD48 /* Sources */,
+				BA491B82281EC92D0063DD48 /* Frameworks */,
+				BA491B83281EC92D0063DD48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "badgerHouse (macOS)";
+			productName = "badgerHouse (macOS)";
+			productReference = BA491B85281EC92D0063DD48 /* badgerHouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA491B8B281EC92D0063DD48 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA491BAE281EC92D0063DD48 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				BA491B88281EC92D0063DD48 /* Sources */,
+				BA491B89281EC92D0063DD48 /* Frameworks */,
+				BA491B8A281EC92D0063DD48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA491B8E281EC92D0063DD48 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = BA491B8C281EC92D0063DD48 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BA491B97281EC92D0063DD48 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA491BB1281EC92D0063DD48 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				BA491B94281EC92D0063DD48 /* Sources */,
+				BA491B95281EC92D0063DD48 /* Frameworks */,
+				BA491B96281EC92D0063DD48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA491B9A281EC92D0063DD48 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = BA491B98281EC92D0063DD48 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA491B73281EC92C0063DD48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					BA491B7E281EC92D0063DD48 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					BA491B84281EC92D0063DD48 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					BA491B8B281EC92D0063DD48 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = BA491B7E281EC92D0063DD48;
+					};
+					BA491B97281EC92D0063DD48 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = BA491B84281EC92D0063DD48;
+					};
+				};
+			};
+			buildConfigurationList = BA491B76281EC92C0063DD48 /* Build configuration list for PBXProject "badgerHouse" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA491B72281EC92C0063DD48;
+			packageReferences = (
+				BA491BB6281EC9B10063DD48 /* XCRemoteSwiftPackageReference "FSCalendar" */,
+			);
+			productRefGroup = BA491B80281EC92D0063DD48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA491B7E281EC92D0063DD48 /* badgerHouse (iOS) */,
+				BA491B84281EC92D0063DD48 /* badgerHouse (macOS) */,
+				BA491B8B281EC92D0063DD48 /* Tests iOS */,
+				BA491B97281EC92D0063DD48 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA491B7D281EC92D0063DD48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4F57FA281FC54700B9D5A4 /* SF레몬빙수-TTF.ttf in Resources */,
+				BAD42A402822496F00BFC2A0 /* badgerImage.jpeg in Resources */,
+				BA5124A2281FC25200CEAB79 /* SfLemon.ttf in Resources */,
+				BA5124A1281FC25200CEAB79 /* BMHANNAPro.ttf in Resources */,
+				BA491BA4281EC92D0063DD48 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA491B83281EC92D0063DD48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA491BA5281EC92D0063DD48 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA491B8A281EC92D0063DD48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA491B96281EC92D0063DD48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA491B7B281EC92D0063DD48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA491BA0281EC92D0063DD48 /* badgerHouseApp.swift in Sources */,
+				BAD42A3E28211E9B00BFC2A0 /* ContentView.swift in Sources */,
+				BAD42A3A28211E8200BFC2A0 /* Home.swift in Sources */,
+				BAD42A3928211E8200BFC2A0 /* CustomDatePicker.swift in Sources */,
+				BAD42A3C28211E8200BFC2A0 /* Task.swift in Sources */,
+				BAD42A4628224D3B00BFC2A0 /* Home2.swift in Sources */,
+				BAD42A4428224CED00BFC2A0 /* ContentView2.swift in Sources */,
+				BAD42A422822498F00BFC2A0 /* MainPage.swift in Sources */,
+				BAD42A3B28211E8200BFC2A0 /* DateValue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA491B81281EC92D0063DD48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA491BA1281EC92D0063DD48 /* badgerHouseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA491B88281EC92D0063DD48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA491B93281EC92D0063DD48 /* Tests_iOSLaunchTests.swift in Sources */,
+				BA491B91281EC92D0063DD48 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA491B94281EC92D0063DD48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA491B9F281EC92D0063DD48 /* Tests_macOSLaunchTests.swift in Sources */,
+				BA491B9D281EC92D0063DD48 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA491B8E281EC92D0063DD48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA491B7E281EC92D0063DD48 /* badgerHouse (iOS) */;
+			targetProxy = BA491B8D281EC92D0063DD48 /* PBXContainerItemProxy */;
+		};
+		BA491B9A281EC92D0063DD48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA491B84281EC92D0063DD48 /* badgerHouse (macOS) */;
+			targetProxy = BA491B99281EC92D0063DD48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA491BA6281EC92D0063DD48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA491BA7281EC92D0063DD48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BA491BA9281EC92D0063DD48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VYAAXRZFXH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "badgerHouse--iOS--Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.badger.badgerHouse;
+				PRODUCT_NAME = badgerHouse;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA491BAA281EC92D0063DD48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VYAAXRZFXH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "badgerHouse--iOS--Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.badger.badgerHouse;
+				PRODUCT_NAME = badgerHouse;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA491BAC281EC92D0063DD48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.badger.badgerHouse;
+				PRODUCT_NAME = badgerHouse;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BA491BAD281EC92D0063DD48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.badger.badgerHouse;
+				PRODUCT_NAME = badgerHouse;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BA491BAF281EC92D0063DD48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tests-iOS-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.badger.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "badgerHouse (iOS)";
+			};
+			name = Debug;
+		};
+		BA491BB0281EC92D0063DD48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tests-iOS-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.badger.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "badgerHouse (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA491BB2281EC92D0063DD48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.badger.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "badgerHouse (macOS)";
+			};
+			name = Debug;
+		};
+		BA491BB3281EC92D0063DD48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.badger.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "badgerHouse (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA491B76281EC92C0063DD48 /* Build configuration list for PBXProject "badgerHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA491BA6281EC92D0063DD48 /* Debug */,
+				BA491BA7281EC92D0063DD48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA491BA8281EC92D0063DD48 /* Build configuration list for PBXNativeTarget "badgerHouse (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA491BA9281EC92D0063DD48 /* Debug */,
+				BA491BAA281EC92D0063DD48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA491BAB281EC92D0063DD48 /* Build configuration list for PBXNativeTarget "badgerHouse (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA491BAC281EC92D0063DD48 /* Debug */,
+				BA491BAD281EC92D0063DD48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA491BAE281EC92D0063DD48 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA491BAF281EC92D0063DD48 /* Debug */,
+				BA491BB0281EC92D0063DD48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA491BB1281EC92D0063DD48 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA491BB2281EC92D0063DD48 /* Debug */,
+				BA491BB3281EC92D0063DD48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BA491BB6281EC9B10063DD48 /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BA491BB7281EC9B10063DD48 /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA491BB6281EC9B10063DD48 /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BA491B73281EC92C0063DD48 /* Project object */;
+}
